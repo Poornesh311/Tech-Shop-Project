@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp page</title>
+</head>
+<style>
+     *{
+            background-color: rgb(12, 12, 12);
+             color: lightgray;
+     }
+    
+        .description{
+            display: flex;
+        }
+        .login-button{
+            border: none;
+            color:rgb(94, 95, 93);
+        }
+        form input{
+            font-size:15px;
+            margin:7px;
+            border: 2px solid gray;
+            padding: 15px;
+            width:300px;
+        }
+        form button{
+            background-color:orange;
+            width:340px;
+            border-radius: 7px;
+            border:solid rgb(31, 26, 26);
+            font-size: 15px;
+            padding:15px;
+            margin:6px;
+        }
+        section{
+            position: relative;
+            left:500px;
+            color: rgb(31, 26, 26);
+            width: 500px;
+        }
+       hr{
+        width:309px;
+        position: relative;
+        right:76px;
+       }
+       span{
+        position: relative;
+        left: 110px;
+        background-color:  rgb(12, 12, 12);;
+        bottom: 18px;
+        padding: 18px;
+        margin: 4px;
+       }
+      
+       .facebook,.google,.twitter{
+        margin:7px;
+        padding:7px;
+        font-size: 15px;
+        width:100px;
+        border:solid rgb(31, 26, 26);
+        border-radius: 5px;
+    }
+       .facebook{
+        background-color:#12a2dd;
+       }
+       .google{
+        background-color:#ed8c13;
+       }
+       .twitter{
+        background-color: rgb(162 182 20);
+       }
+</style>
+<body>
+    <section class="signupDiv">
+        <h1>SignUp</h1>
+        <div class="description">
+        <p>Already have an account?</p>
+        <button class="login-button">login</button>
+        </div>
+    <form>
+        <input type="text" placeholder="Username"/><br>
+        <input type="email" placeholder="E-mail"/><br>
+        <input type="password" placeholder="password"/><br>
+        <input type="password" placeholder="conform password"/><br>
+        <button class="submit">SignUp</button>
+    </form><br><br>
+    <hr>
+    <span>or login with</span>
+    <div class="social media">
+        <button class="facebook">facebook</button>
+        <button class="google">google</button>
+        <button class="twitter">twitter</button>
+    </div>
+    </section>
+    
+</body>
+</html>

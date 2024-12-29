@@ -261,7 +261,7 @@ body{
     border:none;
     color: lightgrey;
     font-size: 20px;
-    background-color:rgb(31, 26, 26);
+    background-color: rgb(43 41 41);
 }
 .TPbutton1{
     background-color:red;
@@ -396,7 +396,7 @@ h3{
     font-size: 20px; 
 }
 .footer-links,.footer-links1,.footer-links2,.footer-links3{
-    color:rgb(113, 116, 106);        }
+    color: rgb(179 181 174);        }
 footer input{
     margin: 5px;
     background-color:black ;
@@ -418,6 +418,7 @@ footer button{
 }
 a{
     color:lightgray;
+    text-decoration: none;
 }
 .footer-bottom{
     display:grid;
@@ -433,7 +434,7 @@ a{
 }
 .footerspan{
     margin:20px;
-    color:rgb(113, 116, 106); 
+    color: rgb(160 163 154);
     padding: 10px 0px;
 }
 .social-icons i{
