@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(31, 26, 26);
+    background-color: rgb(43 41 41);
 }
+
 .Top{
     display:flex;
     margin:0px 2px 50px 1px;
-    background-color: #463f3f;
+    background-color: #0e0d0d;
     position: sticky;
     top: 0px;
     z-index: 10000;
@@ -287,8 +288,12 @@ body{
 .product-card6{
     border: 2px solid gray;
     margin:5px;
-    padding:5px;
-    /* justify-self: center; */         
+    padding:5px;         
+}
+.img8:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2)
 }
 .img7{
     text-align: center;
@@ -364,9 +369,8 @@ body{
     grid-template-columns: repeat(4,1fr);
     justify-items: center;
 }
-.advantage{
-    display: flex;
-}
+
+
 .fa-truck,.fa-shield-halved,.fa-tags,.fa-credit-card{
     color: red;
     font-size: 33px;
@@ -415,7 +419,7 @@ footer button{
 a{
     color:lightgray;
 }
-.footer2div{
+.footer-bottom{
     display:grid;
     grid-template-columns: repeat(2,1fr);
 }
