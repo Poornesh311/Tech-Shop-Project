@@ -1,0 +1,366 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(43 41 41);
+}
+
+.Top{
+    display:flex;
+    margin:0px 2px 50px 1px;
+    background-color: #0e0d0d;
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+    height: 75px;
+}
+.heading{
+    color:lightgrey;
+    font-size:40px;
+    margin:20px;
+}
+.icons{
+    display: flex;
+    position:relative;
+    left:850px;
+    top:32px;
+    color:lightgrey;
+}
+.search{
+    position:relative;
+    left:90px;
+    font-size: 20px;  
+    height: 20px;
+    cursor: pointer;  
+}
+.cart{
+    position: relative;
+    left: 140px;
+    font-size: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.count{
+    background-color:orangered;
+    border-radius: 100%;
+    padding: 3px;
+    font-size: 13px;
+    position: relative;
+    bottom: 9px;
+}  
+.user{
+    position: relative;
+    left: 190px;
+    font-size: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+ .hide1{
+    visibility:hidden;
+    position: absolute;
+    top: 21px;
+    z-index: 1000;
+    right: 0px;
+    width: 223px; 
+    border: 2px solid gray;  
+}
+.user:hover  .hide1 {
+    opacity: 1;
+    visibility: visible; 
+}
+ 
+.product-thumbnails img{
+    height: 130px;
+    width: 130px;
+    margin: 20px;
+    border: 2px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+}
+.product-thumbnails img:first-child{
+    border: 2px solid rgb(255, 253, 253);
+}
+ .product-images{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+ }
+ .pdmainimg{
+    width: 650px;
+    height: 600px;
+    margin: 30px;
+    border: none;
+    position: relative;
+    bottom: 90px;
+ }
+.product-info{
+    margin:20px;
+    padding: 60px;
+    color:lightgrey;
+    position: relative;
+    bottom: 90px;
+}
+.fa-star{
+    color: red;
+}
+.price-details{
+display: flex;
+}
+.pd1discount-price{
+margin:7px 5px 7px 7px;
+font-size: 25px;
+}
+.pd1original-price{
+ font-size: 20px;
+ margin:9px 8px 8px 5px;
+ text-decoration: line-through;
+ color:rgb(113, 116, 106);
+ font-weight: bold;
+}
+.savings{
+color:green
+}
+.in-stock{
+background-color: green ;
+border: none gray;
+padding: 6px;
+position: relative;
+left: 54px;
+}
+.product-offers{
+color:rgb(113, 116, 106);
+}
+.offer-buttons{
+display: flex;
+}
+.offer-buttons button{
+background-color:rgb(47, 48, 45);
+color:lightgray;
+border: 2px solid gray;
+padding: 5px;
+margin: 5px;
+width: 150px;
+border-radius:5px;
+}
+.add-to-cart button{
+color: lightgray;
+background-color: red;
+padding: 5px;
+width: 271px;
+border-radius: 5px;
+border: none;
+height: 40px;
+font-size: 20px;
+}
+.nav-buttons{
+display: flex;
+justify-content: center;
+}
+.specifications-btn,.overview-btn,.reviews-btn{
+    border:none;
+    color: lightgrey;
+    font-size: 40px;
+    background-color: rgb(43 41 41);
+    padding:5px 10px 5px 10px;
+    margin: 60px;
+}
+.specifications-btn:hover{
+    background-color:red;
+    color:white;
+    border-radius:2px;
+    padding:5px 10px 5px 10px;
+    transition-delay:5ms;
+}
+.overview-btn:hover,.reviews-btn:hover{ 
+    background-color:red;
+    color:white;
+    transition-delay:5ms;
+    border-radius:2px;
+}
+.product-specifications{
+    display: flex;
+    font-size: 20px;
+}
+.specs1{
+       position:relative;
+       left: 60px;
+       color:rgb(204 209 193);
+}
+.specs2{
+    position: relative;
+    left: 250px;
+    color: lightgrey;
+}
+
+.heading4{
+    text-align: center;
+    font-size: 30px;
+    color: lightgrey;
+}
+.product-details{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.img8{
+    height:200px;
+    width:200px;
+    background-color: rgba(61, 58, 56, 0.171);
+}
+.product-card6{
+    border: 2px solid gray;
+    margin:5px;
+    padding:5px;         
+}
+.img8:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2)
+}
+.img7{
+    text-align: center;
+    width:305px;
+    background-color: rgba(219, 207, 199, 0.171);
+}
+.fa-star{
+    color:red;
+    font-size: 12px;
+}
+.price{
+    display: flex;
+}
+.discount-price{
+    margin:7px 5px 7px 7px;
+    font-size: 25px;
+    color:lightgray
+}
+.original-price{
+    font-size: 20px;
+    margin:9px 8px 8px 5px;
+    text-decoration: line-through;
+    color:rgb(113, 116, 106);
+    font-weight: bold;
+}
+.TP1heading{
+    font-size: 30px;
+    color: lightgray;
+}
+.TP1side{
+    color:rgb(113, 116, 106);
+    font-size: 25px;
+}
+.add-to-cart{
+    color: lightgray;
+    background-color: red;
+    padding: 5px;
+    width: 271px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+}
+.TPcart1{
+     text-align: center;
+}
+.stars{
+    margin:15px;
+}
+.product-card-last{
+    font-size: 30px;
+    text-align:center;
+    color: lightgray;
+    border: 2px solid gray;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.product-card-lastsub{
+    text-align: center;
+   
+}
+.advantages{
+    text-align: center;
+    font-size: 35px;
+    color:lightgray;
+}
+.advantages-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+
+
+.fa-truck,.fa-shield-halved,.fa-tags,.fa-credit-card{
+    color: red;
+    font-size: 33px;
+    margin:10px 20px 10px 10px;
+}
+.AFheading{
+    font-size: 23px;
+    color:lightgray
+}
+.AFcontent{
+    font-size:18px;
+    color:rgb(113, 116, 106);
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(0, 0, 0);
+    z-index: 100000;
+    padding: 10px;
+}
+h3{
+    color: lightgrey; 
+    font-size: 20px; 
+}
+.footer-links,.footer-links1,.footer-links2,.footer-links3{
+    color: rgb(179 181 174);        }
+footer input{
+    margin: 5px;
+    background-color:black ;
+    border:solid rgb(62, 58, 58);
+    padding: 10px;
+    border-radius: 5px;
+    width:250px;
+}
+footer button{
+    margin: 5px;
+    background-color:rgb(226, 9, 9) ;
+    border:solid rgb(255, 14, 14);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.footer-links{
+    width:500px;
+}
+a{
+    color:lightgray;
+    text-decoration: none;
+}
+.footer-bottom{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.social-icons{
+    color:rgb(113, 116, 106); ;
+    margin: 20px 20px 20px 450px;
+
+}
+.footer2{
+    background-color: rgb(0, 0, 0);
+}
+.footerspan{
+    margin:20px;
+    color: rgb(160 163 154);
+    padding: 10px 0px;
+}
+.social-icons i{
+   padding:10px;
+   font-size: 20px;
+}     
