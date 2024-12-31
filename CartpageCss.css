@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(43 41 41);
+}
+
+.Top{
+    display:flex;
+    margin:0px 2px 50px 1px;
+    background-color: #0e0d0d;
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+    height: 75px;
+}
+.heading{
+    color:lightgrey;
+    font-size:40px;
+    margin:20px;
+}
+.icons{
+    display: flex;
+    position:relative;
+    left:850px;
+    top:32px;
+    color:lightgrey;
+}
+.search{
+    position:relative;
+    left:90px;
+    font-size: 20px;  
+    height: 20px;
+    cursor: pointer;  
+}
+.cart{
+    position: relative;
+    left: 140px;
+    font-size: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.count{
+    background-color:orangered;
+    border-radius: 100%;
+    padding: 3px;
+    font-size: 13px;
+    position: relative;
+    bottom: 9px;
+}  
+.user{
+    position: relative;
+    left: 190px;
+    font-size: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+ .hide1{
+    visibility:hidden;
+    position: absolute;
+    top: 21px;
+    z-index: 1000;
+    right: 0px;
+    width: 223px; 
+    border: 2px solid gray;  
+}
+.user:hover  .hide1 {
+    opacity: 1;
+    visibility: visible; 
+}
+.cart-page{
+    display:flex;
+}
+.item-image{
+    display: flex;
+}
+.item-price{
+    display:flex;
+    font-size: 28px;
+    margin: 10px 5px 20px 0px;  
+ }
+.discounted-price{
+    margin:7px 5px 7px 7px;
+}
+.original-price{
+    font-size: 23px;
+    margin:10px 8px 8px 8px;
+    text-decoration: line-through;
+    color:rgb(113, 116, 106);
+    font-weight: bold;
+}
+.remove-item{
+    position: relative;
+    left: 80px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin: 5px 30px;
+}
+.quantity-control{
+    border: 1px solid gray;
+    width: 108px;
+    border-radius: 5px;
+}
+.fa-minus,.fa-plus{
+     padding: 5px 10px;
+     background-color: rgb(21, 20, 20);
+     border-radius: 5px;
+}
+.quantity-control span{
+    padding:5px 10px;
+    color: red;
+}
+.item-name{
+    font-size: 25px;
+}
+
+.cart-items{
+    background-color: #343030;
+    width:65%;
+    padding: 20px;
+    height:400px;
+    overflow-x: hidden; 
+  overflow-y: scroll;
+}
+.cart-summary{
+    margin: 0px 10px;
+    font-size: 25px;
+    color: rgb(236, 233, 233);
+}
+.price-details{
+    display: flex;
+}
+    
+.price-list{
+    position: relative;
+    left: 150px;
+}
+.price-values ul li:last-of-type,.offer-discount
+{
+    color: green;
+}
+
+hr{
+    width: 90%;
+    margin: 5px 5%;
+}
+.total-price{
+    display: flex;
+    color: rgb(220, 219, 219);
+}
+.total-price span{
+    font-size: 25px;
+}
+.total-price span:nth-child(2){
+    position: relative;
+    left: 190px;
+}
+.checkout-btn{
+    margin: 5px;
+    background-color: rgb(226, 9, 9);
+    border: solid rgb(255, 14, 14);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    position: relative;
+    left: 40px;
+}
+
+
+
+.advantages{
+    text-align: center;
+    font-size: 35px;
+    color:lightgray;
+}
+.advantages-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+
+
+.fa-truck,.fa-shield-halved,.fa-tags,.fa-credit-card{
+    color: red;
+    font-size: 33px;
+    margin:10px 20px 10px 10px;
+}
+.AFheading{
+    font-size: 23px;
+    color:lightgray
+}
+.AFcontent{
+    font-size:18px;
+    color:rgb(113, 116, 106);
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(0, 0, 0);
+    z-index: 100000;
+    padding: 10px;
+}
+h3{
+    color: lightgrey; 
+    font-size: 20px; 
+}
+.footer-links,.footer-links1,.footer-links2,.footer-links3{
+    color: rgb(179 181 174);        }
+footer input{
+    margin: 5px;
+    background-color:black ;
+    border:solid rgb(62, 58, 58);
+    padding: 10px;
+    border-radius: 5px;
+    width:250px;
+}
+footer button{
+    margin: 5px;
+    background-color:rgb(226, 9, 9) ;
+    border:solid rgb(255, 14, 14);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.footer-links{
+    width:500px;
+}
+a{
+    color:lightgray;
+    text-decoration: none;
+}
+.footer-bottom{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.social-icons{
+    color:rgb(113, 116, 106); ;
+    margin: 20px 20px 20px 450px;
+
+}
+.footer2{
+    background-color: rgb(0, 0, 0);
+}
+.footerspan{
+    margin:20px;
+    color: rgb(160 163 154);
+    padding: 10px 0px;
+}
+.social-icons i{
+   padding:10px;
+   font-size: 20px;
+}     
