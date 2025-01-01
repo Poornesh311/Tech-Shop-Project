@@ -133,6 +133,8 @@ img{
     margin: 0px 10px;
     font-size: 25px;
     color: whitesmoke;
+    position: relative;
+    top: 25px;
 }
 .Pricediv{
     display: flex;
