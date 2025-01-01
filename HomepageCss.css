@@ -258,7 +258,7 @@ body{
     text-align: center;
     margin: 75px;
     color:lightgrey;
-    font-size: large;
+    font-size: 30px;
 }
 .top-product-buttons{
     display:grid;
@@ -328,6 +328,7 @@ body{
     color:rgb(113, 116, 106);
     font-weight: bold;
 }
+
 .TP1heading{
     font-size: 30px;
     color: lightgray;
